@@ -14,7 +14,7 @@ const Profile = () => {
 
   const [profile, setProfile] = useState(
     () =>
-      user.avatar.url ||
+      user?.avatar?.url ||
       'https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg'
   );
 
