@@ -57,10 +57,7 @@ const SingleProduct = () => {
         <div className=' sm:max-w-96 sm:mx-auto'>
           <h1 className='text-3xl font-bold truncate'>{data.name}</h1>
           <p className='text-sm mb-2 text-wrap text-ellipsis overflow-hidden'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi totam
-            cupiditate sequi delectus a atque at, aliquid, saepe, voluptates
-            laborum reprehenderit veritatis doloremque est error repellat rerum
-            magnam nesciunt dolore.
+            {data.description}
           </p>
 
           <div className='my-1 flex items-center justify-between'>
